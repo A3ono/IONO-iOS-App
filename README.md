@@ -1,6 +1,9 @@
 # IONO-App
 Market Research &amp; Screener
 
+STOCK - CRYPTO - NFTs - KICKS
+
+IONO is a financial research and hype app.
 
 Application Architecture:
 
