@@ -52,7 +52,6 @@ function verifyRequiredParams($required_fields)
         //if any requred parameter is missing
         if (!isset($request_params[$field]) || strlen(trim($request_params[$field])) <= 0) {
 
-            //returning true;
             return true;
         }
     }
