@@ -8,16 +8,13 @@ class DbConnect
     {
     }
 
-    /**
-     * Establishing database connection
-     * @return database connection handler
-     */
+
     function connect()
     {
         require_once 'Config.php';
 
         // Connecting to mysql database
-        $this->conn = new mysqli('localhost', 'root', '', 'sample');
+        $this->conn = new mysqli('localhost', 'root', '', 'iono');
 
         // Check for database connection error
         if (mysqli_connect_errno()) {
