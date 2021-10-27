@@ -1,13 +1,13 @@
 //
-//  ViewControllerTableViewCell.swift
+//  StockTableViewCell.swift
 //  IONO
 //
-//  Created by Alexandra Medina on 8/31/21.
+//  Created by Alexandra Medina
 //
 
 import UIKit
 
-class ViewControllerTableViewCell: UITableViewCell {
+class StockTableViewCell: UITableViewCell {
 
     @IBOutlet weak var labelName: UILabel!
     @IBOutlet weak var labelGenre: UILabel!
