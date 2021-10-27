@@ -14,43 +14,7 @@ class DbOperation
         $this->conn = $db->connect();
     }
 
-    //Function to create a new user
-   // public function createTeam($name, $memberCount)
-    //{
-      //  $stmt = $this->conn->prepare("INSERT INTO team(name, member) values(?, ?)");
-        //$stmt->bind_param("si", $name, $memberCount);
-        //$result = $stmt->execute();
-        //$stmt->close();
-        //if ($result) {
-          //  return true;
-        //} else {
-          //  return false;
-   //     }
-  //  }
 
-//}
-    public function createTeam($name, $memberCount)
-    {
-        $stmt = $this->conn->prepare("INSERT INTO team(name, member) values(?, ?)");
-        $stmt->bind_param("si", $name, $memberCount);
-        $result = $stmt->execute();
-        $stmt->close();
-        if ($result) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    //this method will return all the teams in the database
-    public function getAllTeams(){
-        $stmt = $this->conn->prepare("SELECT * FROM team");
-        $stmt->execute();
-        $result = $stmt->get_result();
-        return $result;
-    }
-
-    //Function to create a new user
     public function createUser($email, $pass, $l_name, $f_name, $phone)
     {
         if (!$this->isUserExist($email, $l_name, $phone)) {
@@ -77,11 +41,6 @@ class DbOperation
         return $stmt->num_rows > 0;
     }
     
-        /*
-     * This method is added
-     * We are taking username and password
-     * and then verifying it from the database
-     * */
 
     public function userLogin($email, $pass)
     {
@@ -93,10 +52,6 @@ class DbOperation
         return $stmt->num_rows > 0;
     }
 
-    /*
-     * After the successful login we will call this method
-     * this method will return the user data in an array
-     * */
 
    public function getUserByEmail($email)
     {
