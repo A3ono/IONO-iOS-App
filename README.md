@@ -4,7 +4,6 @@
 
 STOCK - CRYPTO - NFTs - KICKS
 
-IONO is a financial research and hype app.
 
 <br>
 
