@@ -6,9 +6,7 @@ STOCK - CRYPTO - NFTs - KICKS
 
 
 <br>
-
-![Screen Shot 2021-10-05 at 10 14 58 PM](https://user-images.githubusercontent.com/47196412/136135103-4092024a-76bd-4749-ad67-7f0e65c47ca4.png)
-
+<img width="616" alt="Screen Shot 2022-01-26 at 11 37 15 PM" src="https://user-images.githubusercontent.com/47196412/151681369-9bcee053-4cff-41e0-a080-ddec77b123dc.png">
 
 <br>
 
